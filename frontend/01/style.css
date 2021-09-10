@@ -1,9 +1,58 @@
-p{
+p, div {
     color: blue; 
+}
+
+/* class jelölés */
+.error {
+    background-color: red;
+}
+
+/* tag class jelölés */
+p.error {
+    background-color: brown;
+}
+
+/* id kiválasztás */
+    /* mindig ez a legerősebb, kivéve ha html-be van írva */
+#nev {
+background-color: pink;
 }
 
 nav > ol > li {
     list-style-type: none;
     float: left;
-    margin-right: 10px;
+    /* margin-right: 10px; */
+
+    height: 2em;
+    /* anya elem 33%a - 10px  */
+    width: calc(33% - 10px);
 }
+
+/* p tag első leszármazotjára vonatkozik */
+p:first-child{
+    font-style: italic;
+}
+
+article::before{
+    counter: 'Elötte';
+}
+
+article::before{
+    counter: 'Utána';
+}
+
+/* általános tag */
+*{
+    font-style: normal;
+}
+
+/* képernyő mérettől függő css */
+@media screen and (min-width: 1000px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+@media ponter{}
+
+/* https://developer.mozilla.org/en-US/docs/Web/css */
