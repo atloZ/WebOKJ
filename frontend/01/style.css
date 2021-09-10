@@ -1,0 +1,9 @@
+p{
+    color: blue; 
+}
+
+nav > ol > li {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
