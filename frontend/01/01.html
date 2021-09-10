@@ -14,10 +14,18 @@
 
 </head>
 <body>
+    
+    <script>
+        // dokumentum betöltése után futtatja csak a kodot
+        document.addEventListener('DOMContentLoaded', ()=>{
+            let pTag = document.getElementById('nev');
+            console.log(pTag);
+        })
+    </script>
 
     <h1 style="color: red;">cimsor</h1>
 
-    <p class="error">asfd</p>
+    <p class="error" id="nev">asfd</p>
     
     <article>
     <p>asfd</p>
@@ -28,7 +36,7 @@
 
     <!-- komment -->
 
-    <nav id="nev">Navigáció</nav>
+    <nav>Navigáció</nav>
     
     <nav>
         <ol>
@@ -39,6 +47,7 @@
     </nav>
 
 
-    <script src=""></script> <!-- azért a végén hogy ne legyen feltünően lassu az oldal betöltés -->
+    <!-- azért a végén hogy ne legyen feltünően lassu az oldal betöltés, nem tud hivatkozni a tag-ek id-jára -->
+    <script src=""></script>
 </body>
 </html>

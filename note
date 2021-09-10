@@ -1,8 +1,11 @@
 frontend:
-    mdn web docs
+    - mdn web docs
 
-    css docs:
-        https://developer.mozilla.org/en-US/docs/Web/css
+    - css docs:
+        - https://developer.mozilla.org/en-US/docs/Web/css
 
 media:
-    adobe xd
+    - adobe xd
+
+érdekeség:
+    - firefox container tab
