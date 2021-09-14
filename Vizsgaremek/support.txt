@@ -1,0 +1,2 @@
+Agilis tesztelés
+Az Agile Testing egy olyan szoftvertesztelési típus, amely alkalmazkodik az agilis szoftverfejlesztési megközelítéshez és gyakorlatokhoz. Agilis fejlesztői környezetben a tesztelés a szoftverfejlesztés szerves része, és a kódolással együtt történik. Az agilis tesztelés lehetővé teszi az inkrementális és iteratív kódolást és tesztelést.
