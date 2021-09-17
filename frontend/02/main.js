@@ -22,29 +22,29 @@ document.addEventListener("DOMContentLoaded",() => {
         // mindenkép lefut
     }
     
-    // // Változok létrehozása
+    // Változok létrehozása
     let i = 5;
-    // const c = "hello";
+    const c = "hello";
     
-    // // Tömb létrehozása
-    // const t = [ 1, 3003, 45 ];
-    // const vegyes = [ 1, "asd", true ];
-    // t[1] = 0;
-    // t.push(-5);
-    // console.log(t);
-    // // Ez hibás
-    // // t = [];
+    // Tömb létrehozása
+    const t = [ 1, 3003, 45 ];
+    const vegyes = [ 1, "asd", true ];
+    t[1] = 0;
+    t.push(-5);
+    console.log(t);
+    // Ez hibás
+    // t = [];
     
-    // console.log(5 / 2);
+    console.log(5 / 2);
     
-    // const obj = {
-    //     nev: "bela",
-    //     eletkor: 3,
-    //     fajta: "kutya"
-    // };
+    const obj = {
+        nev: "bela",
+        eletkor: 3,
+        fajta: "kutya"
+    };
     
-    // obj. eletkor++;
-    // console.log(obj.fajta);
+    obj. eletkor++;
+    console.log(obj.fajta);
     
     if (i > 4) {
         // let csak az adott scopban(scop=="{}") érhető el
@@ -58,14 +58,23 @@ document.addEventListener("DOMContentLoaded",() => {
     console.log(valtozo2);
     console.log(valtozo);
     
-    // for (let j = 0; j < 10; j++) {
+    for (let j = 0; j < 10; j++) {
         
-    // }
+    }
+
+    for(let elem of t){
+        console.log("T: " + t);
+    }
+
+    for(let index in t){
+        console.log(index + t[index]);
+    }
     
-    // while (i > 15) {
-    //     i += 2;
-    // }
+    while (i > 15) {
+        i += 2;
+    }
     
-    // // while (i > 100) {
-    //     // }
+    // Végtelen ciklus
+    while (i > 100) {
+        }
 });
