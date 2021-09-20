@@ -21,3 +21,7 @@
 - Bemutatása
 - Ezt a keretrendszer fogja helyettünk csinálni ha nem natív php írunk
 - [Órai segéd videó](https://www.youtube.com/watch?v=1pbAV6AU99I)
+
+
+
+500 Internal Server Error - javitandó
