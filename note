@@ -12,3 +12,10 @@ media:
 
 oop:
     -
+
+
+szükséges környezetek:
+    - nodeJs
+    - xampp
+    - git console futattható állomany
+    
